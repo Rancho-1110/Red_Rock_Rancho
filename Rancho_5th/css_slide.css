@@ -1,0 +1,61 @@
+img { width:110px;height:150px;}
+#roll { 
+	width: 500px; 
+	height: 200px;
+	position: relative; 
+	left:10px;
+	top:-220px;
+	background:url("img/bg_slide.jpg");
+	border-radius: 15px;
+
+}
+
+
+.btn_left { 
+	display: block; 
+	width: 30px; 
+	height: 30px; 
+	background: url(img/btn.jpg) no-repeat -50px -55px;
+	position: absolute; top: 70px; 
+	left:15px; 
+	border-radius: 320px;
+}
+.btn_left:hover { 
+	background: url(img/btn.jpg) no-repeat -50px -8px; 
+}
+.btn_right { 
+	display: block; 
+	width: 30px; 
+	height: 30px;
+	background: url(img/btn.jpg) no-repeat -5px -55px; 
+	position: absolute; 
+	top: 70px; 
+	right: 15px; 
+	border-radius: 320px;
+}
+.btn_right:hover {
+	background: url(img/btn.jpg) no-repeat -5px -8px;
+}
+.roll .wrap { 
+	width: 400px; 
+	height: 180px;
+	margin: 0 auto; 
+	overflow: hidden; 
+	position: relative; 
+
+}
+.roll ul { 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+}
+.roll li { 
+	float: left; 
+	width: 125px; 
+	height: 108px; 
+	list-style: none;
+}
+.roll li a:hover { 
+	position: relative; 
+	top: 2px; 
+}

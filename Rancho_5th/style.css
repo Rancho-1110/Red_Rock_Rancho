@@ -1,0 +1,157 @@
+body{
+	margin: 0 auto;
+	width:1000px;
+	height:1200px;
+	background:url("img/background3.jpg");
+	background-repeat: repeat;
+	-webkit-text-fill-color: gray;
+}
+p span{
+	margin:5px;
+}
+#all{
+	border-radius: 5px;
+	width:880px;
+	height:1500px;
+}
+#top_right{
+	position:relative;
+	float:right;
+}
+
+.nav{
+	width:880px;
+	height: 480px;
+	position: relative;
+	top:2%;
+}
+
+.nav_title{
+	position: relative;
+	height:45px;
+	border-radius: 5px;
+	background-color: rgb(50,130,175);
+	-webkit-text-fill-color:white;
+}
+.nav_title li{
+	height:25px;
+	padding: 9px;
+	display: inline-block;
+	list-style:none;
+	position: relative;
+	float:left;
+}
+.nav_title li:hover{
+	-webkit-text-fill-color:black;
+	height:25px;
+	top:2px;
+	background-color: rgb(75,142,190);
+}
+#nav_show{
+	position: relative;
+	top:15px;
+	width:880px;
+	height:350px;
+	background-color:white;  
+	border-radius:2px;
+}
+#nav_show img{
+	width:880px;
+	height:350px;
+}
+h3{
+	padding: 7px;
+	text-align: center;
+	text-decoration: none;
+	-webkit-text-fill-color: white;
+	font-size:1em;
+	background-color: rgb(25,25,25); 
+	border-radius:2px;
+}
+
+input{
+	padding: 5px;
+	border:none;
+	border-radius: 10px;
+	background-color: rgb(50,130,175);
+	-webkit-text-fill-color:white;
+}
+input:hover{
+	border:none;
+	-webkit-text-fill-color:yellow;
+}
+
+/**/
+.nav_show_button{
+	position: absolute;
+	left:550px;
+}
+.nav_show_button li{
+	display: inline-block;
+	list-style: none;
+	border-radius:200px;
+}
+.nav_show_button img{
+	width:10px;
+	height:10px;
+	margin:20px;
+	display: inline-block;
+	list-style: none;
+	border-radius:200px;
+}
+
+.body{
+	position: relative;
+	top:40px;
+	width:880px;
+	height:700px;
+	border-radius: 5px;
+	background:url("img/bg_body.jpg");
+}
+.contain_left{
+	width:490px;
+	height:330px;
+	margin: 20px;
+	left:15px;
+}
+.contain_right{
+	width:350px;
+	height:350px;
+	position: absolute;
+	top:-10px;
+	right:0;																																					
+
+}
+.contain_right2{
+	width:340px;
+	height:350px;
+	position: absolute;
+	top:340px;
+	right:0;
+}
+.contain_right2 img{
+	width:310px;
+	height:200px;
+	position: absolute;
+	bottom: 15px;
+	right:15px;
+}
+body h1{
+	position:relative;
+	height:40px;
+	top:10px;
+	margin:10px auto;
+	border-bottom:2px double rgb(55 ,55, 55);
+	border-radius: 5px;
+	-webkit-text-fill-color: white;
+}
+a{
+	color: rgb(52,156,230);
+	font-size:0.8em;
+}
+li a:hover{
+	text-decoration: none;
+	-webkit-text-fill-color: white;
+	font-size:1em;
+}
+
